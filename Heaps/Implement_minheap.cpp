@@ -1,3 +1,37 @@
+// Perform Insert, delMin and getMin operations on a Min Heap. Implement Min Heaps and avoid using inbuilt library.
+
+// Input Format
+
+// First line of input contains T - number of operations. Its followed by T lines, each line contains either "insert x" or "delMin" or "getMin".
+
+// Constraints
+
+// 1 <= T <= 106
+// -109 <= x <= 109
+
+// Output Format
+
+// For each "getMin" operation, print the minimum element, separated by newline. If the heap is empty, print "Empty".
+
+// Sample Input 0
+
+// 10
+// insert 5
+// getMin
+// delMin
+// getMin
+// insert -15
+// insert 10
+// insert -30
+// getMin
+// delMin
+// getMin
+// Sample Output 0
+
+// 5
+// Empty
+// -30
+// -15
 #include <bits/stdc++.h>
 using namespace std;
 
